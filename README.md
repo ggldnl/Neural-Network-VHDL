@@ -1,4 +1,4 @@
-# Neural-Network-VHDL
+# Abstract
 
 VHDL implementation of a DFF neural network. The network is made up of 4 logical layers:
 - an input layer;
