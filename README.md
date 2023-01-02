@@ -130,7 +130,7 @@ To change it just edit the `Neuron.vhd` file.
 
 The generated circuit will only implement the feedforward phase. The network must be trained at a high level, we have to extract the weights and biases, convert them from floats (usually they are real) to integers and put them in the respective matrices in the `Utils` file.
 
-To create and train a network and for the parameter extraction you can refer to this [framework](https://github.com/ggldnl/Neural-Network-Framework) and this script.
+To create and train a network and for the parameter extraction you can refer to this [framework](https://github.com/ggldnl/Neural-Network-Java).
 
 The number of layers cannot be changed that easily, as we did with the other parameters by editing the `Utils` file. You will need to change the code in the `Network` file.
 
